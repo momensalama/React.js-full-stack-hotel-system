@@ -4,6 +4,9 @@ The Wild Oasis
 ## Description
 The Wild Oasis is a hotel website that manages bookings, cabins, and a beautiful dashboard displays charts based on current data
 
+## Live Demo
+click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
+
 ### Main Functionalities
 * Authentication
 * Add and edit cabin
