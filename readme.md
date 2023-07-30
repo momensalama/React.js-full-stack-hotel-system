@@ -23,6 +23,7 @@ click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
 * edit hotel settings
 
 ### Packages
+* **Vite**: build and manage the project
 * **supabase** : backend serverless to use **Authentication**.
 * **react query** : for state management library
 * **date-fns** : format classic dates
