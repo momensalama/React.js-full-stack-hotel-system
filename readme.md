@@ -1,12 +1,17 @@
 # Project Name
 The Wild Oasis
-
 ## Description
 The Wild Oasis is a hotel website that manages bookings, cabins, and a beautiful dashboard displays charts based on current data
-
 ## Live Demo
 click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
-
+## Setup
+**Vite** for building and managing the project
+```
+1. git clone https://github.com/momensalama/the-wild-oasis.git
+```
+```
+2. npm run dev
+```
 ### Main Functionalities
 * Authentication
 * dark mode
@@ -23,7 +28,6 @@ click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
 * edit hotel settings
 
 ### Packages
-* **Vite**: build and manage the project
 * **supabase** : backend serverless to use **Authentication**.
 * **react query** : for state management library
 * **date-fns** : format classic dates
