@@ -7,10 +7,10 @@ click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
 ## Setup
 **Vite** for building and managing the project
 ```
-1. git clone https://github.com/momensalama/the-wild-oasis.git
+git clone https://github.com/momensalama/the-wild-oasis.git
 ```
 ```
-2. npm run dev
+npm run dev
 ```
 ### Main Functionalities
 * Authentication
