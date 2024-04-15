@@ -1,7 +1,7 @@
 # Project Name
 The Wild Oasis
 ## Description
-The Wild Oasis is a hotel website that manages bookings, cabins, and a beautiful dashboard displays charts based on current data
+The Wild Oasis is a hotel website that manages bookings, and cabins, and a beautiful dashboard displays charts based on current data
 ## Live Demo
 click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
 ## Setup
@@ -23,17 +23,19 @@ npm run dev
 * filtration
 * pagination
 * Add, edit, and delete cabin
-* Upload your own cabin
+* Upload your cabin
 * Create user
 * edit hotel settings
 
+### Stack
+React, Supabase, react query, react-hot-toast, react-icons, recharts, styled-components, date-fns.
 ### Packages
 * **supabase** : backend serverless to use **Authentication**.
 * **react query** : for state management library
 * **date-fns** : format classic dates
 * **react-router**: for SPA (Single-page application).
 * **react-hot-toast**: displays a nice notification In case of successful, failed, or error operations
-* **react-hook-form**: simplify Handling bigger forms, such as manual state creation.
+* **react-hook-form**: Simplify handling bigger forms, such as manual state creation.
 * **react-icons**
 * **styled-components**
 * **recharts** : for dashboard charts
