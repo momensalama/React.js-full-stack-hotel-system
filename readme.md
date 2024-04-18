@@ -1,48 +1,78 @@
-# Project Name
-The Wild Oasis
-## Description
-The Wild Oasis is a hotel website that manages bookings, and cabins, and a beautiful dashboard displays charts based on current data
+# The Wild Oasis
+
+The Wild Oasis is a hotel website that manages bookings, cabins, and provides a beautiful dashboard with charts based on current data.
+
 ## Live Demo
-click the link to [see the demo](https://the-wild-oasis-hotel.netlify.app)
+
+Click [here](https://the-wild-oasis-hotel.netlify.app) to see the live demo.
+
 ## Setup
-**Vite** for building and managing the project
-```
-git clone https://github.com/momensalama/the-wild-oasis.git
-```
-```
-npm run dev
-```
-### Main Functionalities
-* Authentication
-* dark mode
-* edit avatar and name
-* Change password
-* dashboard with charts
-* Bookings
-* delete Bookings
-* filtration
-* pagination
-* Add, edit, and delete cabin
-* Upload your cabin
-* Create user
-* edit hotel settings
 
-### Stack
-React, Supabase, react query, react-hot-toast, react-icons, recharts, styled-components, date-fns.
-### Packages
-* **supabase** : backend serverless to use **Authentication**.
-* **react query** : for state management library
-* **date-fns** : format classic dates
-* **react-router**: for SPA (Single-page application).
-* **react-hot-toast**: displays a nice notification In case of successful, failed, or error operations
-* **react-hook-form**: Simplify handling bigger forms, such as manual state creation.
-* **react-icons**
-* **styled-components**
-* **recharts** : for dashboard charts
-* **react error boundary**: error boundaries only catch errors while React is rendering.
+To set up the project, follow these steps:
 
-#### Overview
-the project (The Wild Oasis) is a hotel website where you can make or edit your cabins, see your bookings, and log in or log out.
+1. Clone the repository:
 
+   ```
+   git clone https://github.com/momensalama/the-wild-oasis.git
+   ```
 
+2. go to project:
 
+   ```
+   cd the-wild-oasis
+   ```
+
+3. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+
+## Main Functionalities
+
+- Authentication
+- Dark mode
+- Edit avatar and name
+- Change password
+- Dashboard with charts
+- Bookings
+- Delete bookings
+- Filtration
+- Pagination
+- Add, edit, and delete cabins
+- Upload your cabin
+- Create user
+- Edit hotel settings
+
+## Stack
+
+- React
+- Supabase
+- React Query
+- React Hot Toast
+- React Icons
+- Recharts
+- Styled Components
+- Date-fns
+
+## Packages
+
+- **supabase**: Backend serverless for authentication.
+- **react-query**: State management library.
+- **date-fns**: Date formatting library.
+- **react-router**: Single-page application routing.
+- **react-hot-toast**: Notification library for successful, failed, or error operations.
+- **react-hook-form**: Form handling library.
+- **react-icons**: Icon library.
+- **styled-components**: CSS-in-JS library.
+- **recharts**: Charting library for the dashboard.
+- **react-error-boundary**: Error boundary for catching rendering errors.
+
+## Overview
+
+The Wild Oasis is a hotel website where you can manage your cabins, view bookings, and log in or log out.
