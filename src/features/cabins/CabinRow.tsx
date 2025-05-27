@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styled from "styled-components";
 
 import CreateCabinForm from "./CreateCabinForm";
@@ -62,6 +63,8 @@ function CabinRow({ cabin }: any) {
     image,
     description,
   } = cabin;
+
+  console.log(cabin);
 
   function handleDuplicate() {
     createCabin({

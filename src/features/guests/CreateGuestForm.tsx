@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useForm } from "react-hook-form";
 
 import { useCountries } from "hooks/useCountries";

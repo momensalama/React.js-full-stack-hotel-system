@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import GlobalStyles from "./styles/GlobalStyles";

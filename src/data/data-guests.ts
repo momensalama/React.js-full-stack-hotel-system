@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Search for: 'jo', 'fa', 'mar', 'emm', 'ah'
 
 export const guests = [

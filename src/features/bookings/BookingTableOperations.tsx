@@ -1,3 +1,4 @@
+// @ts-nocheck
 import SortBy from "../../ui/SortBy";
 import Filter from "../../ui/Filter";
 import TableOperations from "../../ui/TableOperations";

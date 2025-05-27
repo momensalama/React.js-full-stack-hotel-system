@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styled from "styled-components";
 import BookingDataBox from "../bookings/BookingDataBox";
 

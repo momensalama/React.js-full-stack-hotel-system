@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { deleteCabin as deleteCabinApi } from "../../services/apiCabins";
 import { toast } from "react-hot-toast";

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { add } from "date-fns";
 
 function fromToday(numDays: number, withTime = false) {

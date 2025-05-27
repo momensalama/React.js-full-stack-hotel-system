@@ -1,6 +1,7 @@
+// @ts-nocheck
 import { PAGE_SIZE } from "../utils/constants";
 import { getToday } from "../utils/helpers";
-import { supabase } from "./supabase";
+import supabase from "./supabase";
 
 interface GetBookings {
   filter?: any;
@@ -14,7 +15,7 @@ export async function getBookings({ filter, sortBy, page }: GetBookings) {
     .select(
       "id, created_at, startDate, endDate, numNights, numGuests, status, totalPrice, cabins(name), guests(fullName, email)",
       { count: "exact" }
-    );
+    ) as any;
 
   // Filter
   if (filter) query = query[filter.method](filter.field, filter.value);

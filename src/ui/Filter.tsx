@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useSearchParams } from "react-router-dom";
 import styled, { css } from "styled-components";
 

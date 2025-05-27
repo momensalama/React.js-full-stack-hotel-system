@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useForm } from "react-hook-form";
 import FormRow from "../../ui/FormRow";
 

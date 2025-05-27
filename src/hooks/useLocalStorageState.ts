@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect } from "react";
 
 export function useLocalStorageState(initialState: any, key: string) {

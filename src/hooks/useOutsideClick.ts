@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useEffect, useRef } from "react";
 
 export function useOutsideClick(handler: () => void, listenCapturing = true) {

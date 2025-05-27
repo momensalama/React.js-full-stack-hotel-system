@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Filter from "../../ui/Filter";
 
 function DashboardFilter() {

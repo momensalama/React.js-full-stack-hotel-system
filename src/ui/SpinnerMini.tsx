@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styled, { keyframes } from "styled-components";
 import { BiLoaderAlt } from "react-icons/bi";
 

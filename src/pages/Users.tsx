@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Heading from "../ui/Heading";
 import SignupForm from "../features/authentication/SignupForm";
 

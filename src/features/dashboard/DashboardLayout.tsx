@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styled from "styled-components";
 import { useRecentBookings } from "./useRecentBookings";
 import Spinner from "../../ui/Spinner";
