@@ -52,9 +52,21 @@ const StyledNavLink = styled(NavLink)`
   &.active:visited svg {
     color: var(--color-brand-600);
   }
+
+  @media (max-width: 768px) {
+    &:link,
+    &:visited {
+      padding: 1.2rem;
+      justify-content: center;
+    }
+
+    & span {
+      display: none;
+    }
+  }
 `;
 
-function MainNav() {
+const MainNav = () => {
   return (
     <nav>
       <NavList>
@@ -91,6 +103,6 @@ function MainNav() {
       </NavList>
     </nav>
   );
-}
+};
 
 export default MainNav;

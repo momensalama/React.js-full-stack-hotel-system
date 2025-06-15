@@ -14,9 +14,19 @@ const StyledDashboardLayout = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto 34rem auto;
   gap: 2.4rem;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
 `;
 
-function DashboardLayout() {
+const DashboardLayout = () => {
   const { isLoading: isLoading1, bookings } = useRecentBookings();
   const { isLoading: isLoading2, confirmedStays, numDays } = useRecentStays();
   const { isLoading: isLoading3, cabins } = useCabins();
@@ -35,6 +45,6 @@ function DashboardLayout() {
       <SalesChart bookings={bookings} numDays={numDays} />
     </StyledDashboardLayout>
   );
-}
+};
 
 export default DashboardLayout;

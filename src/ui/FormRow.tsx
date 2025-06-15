@@ -26,6 +26,17 @@ const StyledFormRow = styled.div`
     justify-content: flex-end;
     gap: 1.2rem;
   }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    padding: 1.2rem 0;
+
+    &:has(button) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
 `;
 
 const Label = styled.label`
@@ -43,7 +54,7 @@ interface FormRowProps {
   children: React.ReactElement;
 }
 
-function FormRow({ label, error, children }: FormRowProps) {
+const FormRow = ({ label, error, children }: FormRowProps) => {
   return (
     <StyledFormRow>
       {label && <Label htmlFor={children.props.id}>{label}</Label>}
@@ -51,6 +62,6 @@ function FormRow({ label, error, children }: FormRowProps) {
       {error && <Error>{error}</Error>}
     </StyledFormRow>
   );
-}
+};
 
 export default FormRow;
